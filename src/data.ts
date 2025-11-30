@@ -349,6 +349,31 @@ export const Depths = {
     { resourceId: "rock", amount: 10.7 },
     { resourceId: "deep-ef", amount: 11.7 },
   ],
+  8200: [
+    { resourceId: "raw-zirconium", amount: 0.7 },
+    { resourceId: "rock", amount: 11.7 },
+    { resourceId: "deep-ef", amount: 3.9 },
+  ],
+  8400: [
+    { resourceId: "raw-zirconium", amount: 1.9 },
+    { resourceId: "raw-uranium", amount: 0.2 },
+    { resourceId: "deep-ef", amount: 1.7 },
+  ],
+  8600: [
+    { resourceId: "raw-zirconium", amount: 0.6 },
+    { resourceId: "raw-uranium", amount: 2.4 },
+    { resourceId: "raw-iron", amount: 11.6 },
+  ],
+  8800: [
+    { resourceId: "deep-ef", amount: 4.7 },
+    { resourceId: "raw-uranium", amount: 2.4 },
+    { resourceId: "raw-iron", amount: 14.9 },
+  ],
+  9000: [
+    { resourceId: "raw-lead", amount: 9.4 },
+    { resourceId: "raw-zirconium", amount: 0.8 },
+    { resourceId: "raw-iron", amount: 3.9 },
+  ],
 } as const satisfies Record<number, DepthYield[]>;
 
 export type DepthId = keyof typeof Depths;
