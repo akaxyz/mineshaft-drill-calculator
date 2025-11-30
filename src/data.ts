@@ -10,6 +10,8 @@ export const Resources = {
   "raw-iron": "Raw Iron",
   "raw-lead": "Raw Lead",
   "raw-zinc": "Raw Zinc",
+  "raw-zirconium": "Raw Zirconium",
+  "raw-uranium": "Raw Uranium",
   "bauxite-residue": "Bauxite Residue",
   "table-salt": "Table Salt",
   "shallow-ef": "Shallow Earth Fragment",
